@@ -1,75 +1,105 @@
+* {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  height: 100vh;
+  background: linear-gradient(0deg, rgb(101, 139, 93), rgb(253, 245, 239));
+}
+
 .grid {
-    display: flex;
-    flex-wrap: wrap;
-    width: 360px;
-    height: 360px;
-    background-color: rgb(146, 146, 146);
+  display: flex;
+  flex-wrap: wrap;
+  width: 360px;
+  height: 360px;
+  margin: 0 auto;
+  background-color: rgb(170, 185, 175);
+  border: 5px solid rgb(170, 185, 175);
 }
 
 .grid div {
-    width: 80px;
-    height: 80px;
-    border: 5px solid rgb(146, 146, 146);
-    font-size: 30px;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border: 5px solid rgb(170, 185, 175);
+  font-size: 30px;
+}
+
+.score {
+  display: block;
+  text-align: center;
+  padding: 30px 50px 20px;
+  color: rgb(48, 66, 51);
+}
+
+.result {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+  color: rgb(236, 53, 20);
+  border-radius: 20px;
 }
 
 .zero {
-    background-color: rgb(102, 102, 102);
-    color: rgb(102, 102, 102);
+  background-color: rgb(102, 102, 102);
+  color: rgb(102, 102, 102);
 }
 
 .two {
-    background-color: rgb(216, 215, 215);
-    color: rgb(102, 102, 102);
+  background-color: rgb(216, 215, 215);
+  color: rgb(102, 102, 102);
 }
 
 .four {
-    background-color: rgb(221, 212, 186);
-    color: rgb(102, 102, 102);
+  background-color: rgb(221, 212, 186);
+  color: rgb(102, 102, 102);
 }
 
 .eight {
-    background-color: rgb(240, 150, 76);
-    color: rgb(245, 233, 227);
+  background-color: rgb(240, 150, 76);
+  color: rgb(245, 233, 227);
 }
 
 .sixteen {
-    background-color: rgb(240, 125, 30);
-    color: rgb(245, 233, 227);
+  background-color: rgb(240, 125, 30);
+  color: rgb(245, 233, 227);
 }
 
 .tirtyTwo {
-    background-color: rgb(240, 77, 48);
-    color: rgb(245, 233, 227);
+  background-color: rgb(240, 77, 48);
+  color: rgb(245, 233, 227);
 }
 
 .sixtyFour {
-    background-color: rgb(236, 53, 20);
-    color: rgb(245, 233, 227);
+  background-color: rgb(236, 53, 20);
+  color: rgb(245, 233, 227);
 }
 
 .oneTwoEight {
-    background-color: rgb(240, 208, 68);
-    color: rgb(245, 233, 227);
+  background-color: rgb(240, 208, 68);
+  color: rgb(245, 233, 227);
 }
 
 .twoFiveSix {
-    background-color: rgb(235, 192, 0);
-    color: rgb(245, 233, 227);
+  background-color: rgb(235, 192, 0);
+  color: rgb(245, 233, 227);
 }
 
 .fiveTwelve {
-    background-color: rgb(223, 226, 5);
-    color: rgb(245, 233, 227);
+  background-color: rgb(223, 226, 5);
+  color: rgb(245, 233, 227);
 }
 
 .thousandTwoFour {
-    background-color: rgb(168, 233, 16);
-    color: rgb(245, 233, 227);
+  background-color: rgb(168, 233, 16);
+  color: rgb(245, 233, 227);
 }
 
 .twoThousandsFourEighth {
-    background-color: rgb(157, 68, 240);
-    color: rgb(245, 233, 227);
+  background-color: rgb(157, 68, 240);
+  color: rgb(245, 233, 227);
 }
